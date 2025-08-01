@@ -84,9 +84,9 @@ emotion-detection-app/
 
 ## 🖼 Screenshots
 
-| Emotion Detector UI         | Prediction Output                   |
-| --------------------------- | ----------------------------------- |
-| ![](screenshots/app_ui.png) | ![](screenshots/result_example.png) |
+<img width="1367" height="1276" alt="App2" src="https://github.com/user-attachments/assets/9c9eb3c2-4aec-45ad-a46d-4f0273637418" />
+<img width="1367" height="1276" alt="App1" src="https://github.com/user-attachments/assets/f4379b14-5189-4dfc-9fe0-2762f49e660c" />
+
 
 ---
 
@@ -136,3 +136,4 @@ Made with 💙 by Muhammad Ahsaan Ullah ([@MAhsaanUllah](https://github.com/MAhs
 ## 📄 License
 
 This project is open-source and available under the [MIT License](LICENSE).
+
