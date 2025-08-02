@@ -30,7 +30,7 @@ Included inside `emotion-dataset/`:
 
 * `train.txt`
 * `val.txt`
-* `test.txt'
+* `test.txt`
 
 ---
 
