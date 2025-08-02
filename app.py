@@ -1,4 +1,3 @@
-%%writefile app.py
 import streamlit as st
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
@@ -76,4 +75,5 @@ if submit_button:
         # Ensure we iterate through the correct number of labels and use the correct mapping
         score_dict = {id2label[i]: float(probs[0][i]) for i in range(len(id2label))} # Use len(id2label) for correct range
         st.markdown("### 🔍 Emotion Confidence Scores")
+
         st.bar_chart(score_dict)
