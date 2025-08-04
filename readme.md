@@ -1,48 +1,56 @@
 # 😄 Emotion Detection App – NLP Powered by BERT
 
-A smart web app that detects human emotions (Happy, Sad, Angry, Fear, Surprise, Neutral) from user input text using a fine-tuned **BERT** model. The output also includes an emoji to match the detected emotion for a fun, intuitive experience 🎯
+A smart web app that detects human emotions from text input using a fine-tuned **BERT** model. Supports 6 emotions: **Happy, Sad, Angry, Fear, Surprise, and Neutral**. The output includes both the predicted emotion **and an emoji** for an engaging user experience 🎯
 
 ---
 
-## 🔍 What It Does
+## 🔍 Features
 
-🧠 **Natural Language Processing**  
-🎭 **Emotion Classification** using pre-trained BERT  
-✨ **Emoji-based Output**  
-🌐 **Interactive Web UI** with Streamlit  
+- 🧠 **Natural Language Understanding (NLU)**
+- 🎭 **Emotion Classification** using Hugging Face Transformers
+- ✨ **Emoji-based Output** for friendly UX
+- 🌐 **Streamlit Web App** with interactive UI
+- 📁 **Pre-trained model included** with Git LFS
 
 ---
 
-## 📂 Dataset
+## 📊 Dataset
 
-- Used the [Crowdflower Emotion Dataset](https://www.figure-eight.com/data-for-everyone/)
-- 6 Emotion Classes: Happy, Sad, Angry, Fear, Surprise, Neutral
+- **Source:** [Crowdflower Emotion Dataset](https://www.figure-eight.com/data-for-everyone/)
+- **Classes:** `Happy`, `Sad`, `Angry`, `Fear`, `Surprise`, `Neutral`
+- **Processing:** Cleaned, tokenized, and split into train/test for model fine-tuning
 
 ---
 
 ## 🛠 Tech Stack
 
-- 🐍 Python
-- 🤗 Hugging Face Transformers
-- 🎛 Scikit-Learn
-- 🌐 Streamlit
-- 📦 Pandas & Emoji Libraries
+| Component      | Tool/Library                      |
+|----------------|-----------------------------------|
+| Language       | Python                            |
+| NLP Model      | BERT via Hugging Face Transformers|
+| Model Training | Scikit-learn, Pandas              |
+| Interface      | Streamlit                         |
+| Visualization  | Emoji, Streamlit                  |
+| Model Storage  | Git LFS                           |
 
 ---
 
-## 🚀 Live App
+## 🚀 Live Demo
 
-👉 [Try the App Here]([(https://huggingface.co/spaces/sickboi25/emotion-detection-app)]
+▶️ Try the app live on Hugging Face Spaces:  
+🔗 **[Launch Emotion Detector Web App](https://huggingface.co/spaces/sickboi25/emotion-detection-app)**
 
 ---
 
-## 🖼 Preview
+## 🖼 App Preview
 
-<img src="screenshots/app_preview.png" alt="app preview" width="600"/>
+![App Preview](screenshots/app_preview.png)
 
 ---
 
 ## ⚙️ Run Locally
+
+> Requires Python 3.9+
 
 ```bash
 git clone https://github.com/MAhsaanUllah/Emotion_Detection_App.git
@@ -50,19 +58,33 @@ cd Emotion_Detection_App
 pip install -r requirements.txt
 streamlit run app.py
 
+🧠 Model Files
+Model files are located in:
 
-📌 Future Ideas
-Add voice input → text → emotion
+bash
+Copy
+Edit
+streamlit_emotion_app/emotion_model/
+Tracked via Git LFS:
 
-Multilingual emotion detection (Urdu, Hindi, etc.)
+model.safetensors (BERT weights)
 
-Add bar chart of probabilities
+tokenizer.json, vocab.txt, config.json, etc.
+
+👉 Ensure Git LFS is installed and initialized before cloning or pushing model files.
+
+📌 Future Improvements
+🎤 Add voice-to-text input
+
+🌍 Add multilingual emotion detection (Urdu, Hindi, etc.)
+
+📊 Display bar chart of prediction probabilities
+
+📦 Convert to a Python package or Hugging Face model hub upload
 
 🙋‍♂️ Author
 Muhammad Ahsaan Ullah
-
-🔗 GitHub: https://github.com/MAhsaanUllah
-
-💼 LinkedIn: https://www.linkedin.com/in/muhammad-ahsaan-ullah-profile/
+📧 LinkedIn
+🧠 GitHub
 
 
