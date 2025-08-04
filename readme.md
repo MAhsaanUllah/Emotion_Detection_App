@@ -84,7 +84,8 @@ tokenizer.json, vocab.txt, config.json, etc.
 
 🙋‍♂️ Author
 Muhammad Ahsaan Ullah
-📧 LinkedIn
-🧠 GitHub
+📧 LinkedIn:  https://www.linkedin.com/in/muhammad-ahsaan-ullah-profile/
+🧠 GitHub:  https://github.com/MAhsaanUllah
+
 
 
