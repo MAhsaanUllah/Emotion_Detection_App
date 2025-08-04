@@ -32,7 +32,7 @@ A smart web app that detects human emotions (Happy, Sad, Angry, Fear, Surprise, 
 
 ## 🚀 Live App
 
-👉 [Try the App Here](add soon)
+👉 [Try the App Here]([(https://huggingface.co/spaces/sickboi25/emotion-detection-app)]
 
 ---
 
@@ -64,4 +64,5 @@ Muhammad Ahsaan Ullah
 🔗 GitHub: https://github.com/MAhsaanUllah
 
 💼 LinkedIn: https://www.linkedin.com/in/muhammad-ahsaan-ullah-profile/
+
 
